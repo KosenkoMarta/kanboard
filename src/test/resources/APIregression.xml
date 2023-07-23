@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Use tests automation">
+
+    <test name="API Regression testing">
+        <packages>
+            <package name="api.tests.users.*"/>
+            <package name="api.tests.projects.*"/>
+            <package name="api.tests.tasks.*"/>
+        </packages>
+
+    </test>
+</suite>

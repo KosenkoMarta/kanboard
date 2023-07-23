@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Use tests automation">
+
+    <test name="UI Regression testing">
+        <packages>
+            <package name="ui.tests.tasks.*"/>
+            <package name="ui.tests.projects.*"/>
+            <package name="ui.tests.login.*"/>
+        </packages>
+
+    </test>
+</suite>
