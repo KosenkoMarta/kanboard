@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="UI Project tests">
+
+    <test name="Project testing">
+        <classes>
+            <class name="ui.tests.project.RemoveProjectTests"/>
+            <class name="ui.tests.project.CancelProjectActionsTests"/>
+            <class name="ui.tests.project.CreateNewProjectTests"/>
+        </classes>
+    </test>
+</suite>
